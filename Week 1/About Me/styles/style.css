@@ -1,0 +1,40 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: #508F7F;
+    color: #ffff;
+}
+h1,h2{
+    font-family: 'Courgette', cursive;
+}
+/* Section Navigation */
+.title-nav{
+    padding-left: 18%;
+    font-family: 'Courgette',cursive;
+}
+.subtitle-nav{
+    padding-left: 47%;
+}
+/* Section About Me */
+.image-pro{
+    width: 65%;
+    margin-left: 15%;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 2rem;
+}
+.h2-title{
+    padding-top: 1%;
+}
+.aboutme-paragraph{
+    padding-top: 5%;
+}
+/* Section Footer */
+.footer{
+    margin-top: 7%;
+}

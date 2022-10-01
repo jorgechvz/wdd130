@@ -1,0 +1,38 @@
+body{
+    background-color: pink;
+    text-align: center;
+    color: #ffffff;
+}
+img{
+    width: 15%;
+    margin-bottom: 3%;
+}
+.title-h1{
+    font-size: 3em;
+}
+.title-h1:hover{
+    color: #000;
+}
+.subtitle1-h2{
+    margin: 0 35%;
+    font-size: .9em;
+}
+.subtitle2-h2{
+    font-size: 1.5em;
+}
+.block-list{
+    text-align: left;
+    margin: 0 35%;
+    font-weight: bold;
+    color: #000;
+}
+.subtitle3-h2{
+    margin: 0 40%;
+    line-height: 1.5em;
+    font-size: 2em;
+}
+.footer-page{
+    margin: 3% 35% 0;
+    color: #000;
+    font-size: 1em;
+}

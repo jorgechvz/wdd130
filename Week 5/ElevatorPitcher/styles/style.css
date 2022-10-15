@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap');
+
+:root{
+    --heading-font: 'Lobster', Verdana, Arial;
+    --paragraph-font: 'Lora', Sans-serif, Helvetica;
+}
+header{
+    text-align: center;
+}
+.logo, .introduce, .home-title{
+    box-sizing: border-box;
+}
+.logo{
+    width: 300px;
+}
+.home-title{
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+.introduce{
+    font-family: var(--paragraph-font);
+    padding-top: 2em;
+    margin: 0 150px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+

@@ -1,0 +1,20 @@
+.img-hero{
+    width: 100%;
+    line-height: 0;
+    display: block;
+}
+.main-images{
+    box-sizing: border-box;
+    background-color: rgba(27, 27, 27, 0.767);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+    
+}
+.img-icon1, .img-icon2, .img-icon3{
+    width: 25%;     
+    border-radius: 50%;
+    border: 20px solid;
+    box-sizing: border-box;
+}
+

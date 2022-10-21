@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    position: absolute;
+    letter-spacing: 0.2em;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.header_1{
+    margin: 150px 75px;
+    font-size: 9em;
+}
+.header_2{
+    margin: 150px 100px;
+    font-size: 9em;
+}
+.subheader{
+    margin: 500px 190px;
+    color: red;
+    font-size: 4em;
+}
+.cherries-text{
+    background-color:rgb(184, 181, 181);
+}

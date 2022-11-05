@@ -25,7 +25,15 @@ Fonts are separated by a | */
   --nav-hover-link-color: #1A507F;
   --nav-hover-background-color: #D8ECDA;
 }
-
+.grid-images{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+  align-items: center;
+}
+.images_for_page{
+  width: 100%;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 

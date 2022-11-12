@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Satisfy&display=swap');
 
+/* Root */
 :root{
     --primary-color: #555B6E ;
     --secondary-color: #89B0AE ;
@@ -37,6 +38,12 @@ header{
     grid-template-columns: 150px auto;
     opacity: .9;
 }
+ul{
+    padding: 0;
+}
+
+/* Home Page and Trips & Prices Page */
+
 /* ----Navegation */
 nav{ 
     display: flex;
@@ -93,6 +100,8 @@ nav a:hover{
     margin-top: 10px;
 }
 
+/* Home Page */
+
 /* ---Buttons */
 .button-box{
     text-align: center;
@@ -111,8 +120,8 @@ nav a:hover{
     color: var(--primary-color);
 }
 
-
 /* Main */
+
 /* ---Sections */
 main section{
     text-align: center;
@@ -180,7 +189,7 @@ main section{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-/* Footer */
+/* Footer for both pages*/
 footer{
     background-color: var(--primary-color);
     padding: 25px 50px;
@@ -205,9 +214,98 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* ---------------------------------------------------- */
+/* Trips & Prices Page */
+
+.tp-title{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: 3em;
+    margin-top: 225px;
+}
+#herotp-img{
+    width: 100%;
+}
+
+/* Main Section Trips & Prices */
+.content_tp{
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: repeat(13, 13fr);
+    margin: 150px 50px;
+    justify-items: center;
+}
+.hd_title{
+    font-family: var(--heading-font);
+    grid-column: 1 / 13;
+    padding: 70px 0 25px 70px;
+}
+.subtitle_tp{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center; 
+    font-size: 1em;
+    grid-row: 2/3;
+    padding-bottom: 15px;
+}
+.img_content{
+    width: 100%;
+    height: 100%;
+    grid-row: 3/6;
+    border-radius: 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.list_items{
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+    background: var(--primary-color);
+    padding: 5px 20px;
+    line-height: 1.5em;
+    grid-row: 6/7;
+    font-size: .8em;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.list{
+    list-style: none;
+}
+.list_span{
+    font-weight: lighter;
+}
+.middlefork, .toulumne{
+    grid-column: 2/5;
+}
+.lowergeorge, .merced{
+    grid-column: 6/9;
+}
+.southfork, .illinois{
+    grid-column: 10/13;
+}
+.button_tp{
+    font-family: var(--paragraph-font);
+    grid-row: 7/8;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin: 20px 0 50px;
+    border-radius: 10px;
+}
+.button_tp:hover{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
 /* Media Query */
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .content_tp {
         display: block;
         height: auto;
     }
@@ -242,6 +340,16 @@ footer .social img {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .hd_title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .button_tp{
+        width: 100%;
+    }
+    .list_items{
+        text-align: center;
     }
     footer {
         margin-top: 25px;

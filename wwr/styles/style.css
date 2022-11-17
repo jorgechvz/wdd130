@@ -285,22 +285,138 @@ footer .social img {
     grid-column: 10/13;
 }
 .button_tp{
-    font-family: var(--paragraph-font);
     grid-row: 7/8;
+    text-decoration: none;
+    padding: 15px 30px; 
+    margin: 20px 0 50px;
+}
+.book_tp{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px; 
-    margin: 20px 0 50px;
+    padding: 15px 30px;
+    margin-top: 50px;
     border-radius: 10px;
 }
-.button_tp:hover{
+.book_tp:hover{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+/* Contact Us Page */
+.contact-title{
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    font-size: 1.7em;
+    margin-top: 150px;   
+}
+.contact-subtitle{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+} 
+hr{
+    width: 20%;
+    margin: 0 auto;
+
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid var(--primary-color);
+    border-radius: 1em;
+    margin-top: 50px;
+    font-size: 0.9em;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+input,textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 0.8em var(--paragraph-font);
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid var(--primary-color);
+}
+  
+input:focus,textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: var(--primary-color);
+}
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+}
+.button{
+    /* Align buttons with the text fields */
+    padding-top: 10px;
+    padding-left: 90px;
+}
+.button-form{
+    font-family: var(--paragraph-font);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px; 
+    margin: 10px 0 10px;
+    border-radius: 10px;
+}
+.button-form:hover{
     background-color: var(--accent2-color);
     color: var(--primary-color);
     font-weight: bold;
 }
 
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 /* Media Query */
 
@@ -346,10 +462,15 @@ footer .social img {
         padding-left: 0;
     }
     .button_tp{
-        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
     }
     .list_items{
         text-align: center;
+    }
+    .book_contact{
+        display: none;
     }
     footer {
         margin-top: 25px;

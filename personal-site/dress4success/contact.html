@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>JChProgrammer | Contact</title>
 </head>
 <body>
     <div id="content">
         <header>
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="Page Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="nav_bar">
+                <a href="index.html" class="logo_link">
+                    <img class="logo" src="images/logo.png" alt="Page Logo">
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="hero">
+                <img class="hero-img hero_contacts"src="images/hover-contactpage.png" alt="hover-homepage">
+                <div class="texthover">
+                    <h1 class="title-contact">Have an exciting project where you need some help?</h1>
+                    <hr class="linehover_contact">
+                    <h2 class="subtitle-contact">Thanks for taking the time to reach out.</h2>
+                    <h2 class="subtitle-contact">Do you have questions about my work or do you want me to be part of your project?</h2>
+                </div>
+            </div>
         </header>
-        <div class="hero">
-            <img src="images/hover-contactpage.png" alt="hover-homepage">
-            <h1 class="title-contact">Have an exciting project where you need some help?</h1>
-            <hr class="linehover_contact">
-            <h2 class="subtitle-contact">Thanks for taking the time to reach out.</h2>
-            <h2 class="subtitle-contact">Do you have questions about my work or do you want me to be part of your project?</h2>
-        </div>
         <main>
             <section class="hearfromyou"> 
                 <h2 class="subtitle_hfy">I'd love to hear from you</h2>
@@ -60,7 +65,9 @@
                 </div>
             </section>
         </main>
+        <!-- Footer Section -->
         <footer>
+            <!-- Stay Connect Section -->
             <div class="stay_connect">
                 <h3>Stay Connect</h3>
                 <hr class="line_footer">
@@ -71,33 +78,35 @@
                     <li class="stay_list">+51 941449749</li>
                 </ul>
             </div>
+            <!-- Social Section -->
             <div class="social">
                 <h3>Social</h3>
                 <hr class="line_footer">
-                <a href="https://www.facebook.com/jorge.chavezponce/" target="_blank">
-                    <img class="icon_social" src="images/facebook.png" alt="Facebook icon">
-                </a>
-                <a href="https://www.instagram.com/jorgechvzpon/" target="_blank">
-                    <img class="icon_social" src="images/instagram.png" alt="Instagram Icon">
-                </a>
-                <a href="https://twitter.com/Jorgechavezponc/" target="_blank">
-                    <img class="icon_social" src="images/twitter.png" alt="Twitter Icon">
-                </a>
-                <a href="https://github.com/jorgechvz" target="_blank">
-                    <img class="icon_social" src="images/github.png" alt="Github icon">
-                </a>
-                <a href="https://www.linkedin.com/in/jorge-alberto-chavez-ponce-5145b3101/" target="_blank">
-                    <img class="icon_social" src="images/linkedin.png" alt="Linkedin icon">
-                </a>
+                <div class="box_socialicons">
+                    <a href="https://www.facebook.com/jorge.chavezponce/" target="_blank">
+                        <img class="icon_social" src="images/facebook.png" alt="Facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com/jorgechvzpon/" target="_blank">
+                        <img class="icon_social" src="images/instagram.png" alt="Instagram Icon">
+                    </a>
+                    <a href="https://twitter.com/Jorgechavezponc/" target="_blank">
+                        <img class="icon_social" src="images/twitter.png" alt="Twitter Icon">
+                    </a>
+                    <a href="https://github.com/jorgechvz" target="_blank">
+                        <img class="icon_social" src="images/github.png" alt="Github icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jorge-alberto-chavez-ponce-5145b3101/" target="_blank">
+                        <img class="icon_social" src="images/linkedin.png" alt="Linkedin icon">
+                    </a>
+                </div>
             </div>
+            <!-- Thanks Section -->
             <div class="thanks">
-                <h3>&#128526; Thanks for stay here!</h3>
+                <h3><span class="span_thanks">&#128526;</span> Thanks for stay here!</h3>
                 <hr class="line_footer">
                 <p>Copyright &copy; 2022 JChProgrammer</p>
                 <p>Design by Jorge Chavez</p>
-                <div class="siteplan">
-                    <a class="siteplan_link"href="site-plan.html" target="_blank">Access to Site Plan</a>
-                </div>
+                <a class="siteplan_link" href="site-plan.html" target="_blank">Access to Site Plan</a>
             </div>
         </footer>
     </div>

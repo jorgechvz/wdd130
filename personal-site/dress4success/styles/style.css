@@ -133,7 +133,6 @@ nav a:hover{
     margin-top: 20px;
 }
 .contactnow, .resume{
-    text-decoration: none;
     font-size: 20px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px black;
@@ -278,4 +277,94 @@ footer{
 }
 .siteplan_link:hover{
     color: rgb(49, 2, 2);
+}
+/* ----------------------- */
+/* Projects Page */
+
+/* Header*/
+.h_projects{
+    padding: 50px;
+    grid-template-columns: 55% 45%;
+}
+.img_hero_projects{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 90%;
+}
+.text_hero_projects{
+    text-align: left;
+    padding: 2em 3em 0 3em;
+}
+.subtitle-projects{
+    padding-top: 1em;
+    font-size: 1.13em;
+}
+
+/* Main Section */
+.projects_section{
+    margin-top: 5em;
+}
+.grid_projects{
+    display: grid;
+    text-align: left;
+    margin: 5em;
+    align-items: center;
+    border: dashed var(--primary-color);    
+    border-radius: 15px;
+    padding: 1em;
+}
+.box_text{
+    padding: 0.5em 2em;
+}
+.freelancer, .coffeeblog, .adventuregame{
+    grid-template-columns: 55% 45%;
+    background-color: var(--secondary-color);
+    border: solid var(--accent2-color);
+    box-shadow: 3px 3px 3px 3px var(--primary-color);
+    color: var(--accent2-color);    
+}
+.frontstore, .tindog, .serclien_program{
+    grid-template-columns: 45% 55%;
+}
+.img_frontstore, .img_tindog, .img_scprogram{
+    grid-row: 1/2;
+}
+.img_projectsdone{
+    width: 100%;
+    border-radius: 10px;
+}
+.line_projects{
+    width: 30%;
+}
+.icon_projects{
+    width: 10%;
+    padding-left: 0.5em;
+}
+.name_project{
+    font-size: 1.5em;
+}
+.button_gopage{
+    float: right;
+    margin: 0.65em 2em 0 0;
+}
+.link_project{
+    padding: 0.5em 1.5em;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+.link_freelancer, .link_coffeeblog, .link_adventuregame{
+    background-color: var(--accent2-color);
+}
+.link_scprogram, .link_tindog, .link_frontstore{
+    color: var(--accent2-color);
+}
+.link_scprogram:hover, .link_tindog:hover, .link_frontstore:hover{
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border: dashed var(--primary-color)
+}
+.link_freelancer:hover, .link_coffeeblog:hover, .link_adventuregame:hover{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: solid var(--accent2-color);
 }

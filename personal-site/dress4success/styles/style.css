@@ -5,9 +5,9 @@
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #01394F   ;
+    --primary-color: #D8ECDA ;
     --secondary-color: #1A507F ;
-    --accent1-color: #D8ECDA;
+    --accent1-color: #01394F;
     --accent2-color: #EFF6E0;
   
     /* change the values below to your chosen font(s) */
@@ -47,7 +47,7 @@ header footer main section img{
     box-sizing: border-box;
 }
 hr{
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--accent1-color);
     display: inline-block;
 }
 ul{
@@ -57,10 +57,10 @@ ul{
 }
 a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 header{
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 /* CSS for Home Page */
 /* Header */
@@ -82,12 +82,12 @@ nav a{
     justify-self: center;
     align-self: center;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-weight: 500;
 }
 nav a:hover{
     border-radius: 50px;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
 .logo_link{
@@ -138,23 +138,23 @@ nav a:hover{
     box-shadow: 2px 2px 2px black;
 }
 .contactnow{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     padding: 15px 22px;
 }
 .resume{
     background-color: var(--accent2-color);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-weight: 700;
     padding: 15px 40px;
     margin-left: 40px;
 }
 .contactnow:hover{
     background-color: var(--accent2-color);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 .resume:hover{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
 
@@ -212,7 +212,7 @@ main{
 .services{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     padding: 5em;
     column-gap: 1em;
     margin-bottom: 10em;
@@ -244,7 +244,7 @@ main{
     padding-top: 1.5em;
 }
 .box_services{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     border-radius: 7%;
     box-shadow: 5px 5px 5px black;
@@ -255,7 +255,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 2em 3em;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     column-gap: 1em;
 }
 .stay_list{
@@ -309,7 +309,7 @@ footer{
     text-align: left;
     margin: 5em;
     align-items: center;
-    border: dashed var(--primary-color);    
+    border: dashed var(--accent1-color);    
     border-radius: 15px;
     padding: 1em;
 }
@@ -320,7 +320,7 @@ footer{
     grid-template-columns: 55% 45%;
     background-color: var(--secondary-color);
     border: solid var(--accent2-color);
-    box-shadow: 3px 3px 3px 3px var(--primary-color);
+    box-shadow: 3px 3px 3px 3px var(--accent1-color);
     color: var(--accent2-color);    
 }
 .frontstore, .tindog, .serclien_program{
@@ -359,12 +359,12 @@ footer{
     color: var(--accent2-color);
 }
 .link_scprogram:hover, .link_tindog:hover, .link_frontstore:hover{
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
-    border: dashed var(--primary-color)
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    border: dashed var(--accent1-color)
 }
 .link_freelancer:hover, .link_coffeeblog:hover, .link_adventuregame:hover{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     border: solid var(--accent2-color);
 }

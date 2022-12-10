@@ -28,7 +28,7 @@
 /* Globals */
 
 #content{
-    max-width: 1920px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 body{
@@ -367,4 +367,102 @@ footer{
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border: solid var(--accent2-color);
+}
+
+/* ------------------------------------ */
+/* Contact Page */
+
+/* Header */
+
+.hero_contacts{
+    width: 90%;
+    margin: auto;
+}
+.title-contact{
+    padding: 1.9em 0 0 2em;
+    font-size: 2.2em;
+}
+.linehover_contact{
+    width: 90%;
+}
+.subtitle-contact{
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+/* Main */
+/* Hear From You Section */
+
+.hearfromyou{
+    margin: 4em 0;
+}
+.subtitle_hfy{
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+.content_text_hfy{
+    padding: 1em 5em;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+/* Contact Form Section */
+
+.contact_form{
+    margin: 0 5em 4em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+}
+.content_contact{
+    margin-left: 2em;
+}
+.subtitle_contactform{
+    padding: 0.5em 0;
+    font-size: 2em;
+}
+.camp{
+    margin: 0.5em 0;
+    width: 250px;
+}
+.camp_field{
+    width: 190%;
+    height: 30px;
+    border-radius: 20px;
+    border: solid var(--accent1-color);
+    padding: 0.5em 1em;
+    font-size: 0.7em;
+}
+.camp_field--textarea{
+    height: 150px;
+    padding-top: 1em;
+    resize: none;
+}
+.camp_field:focus{
+    background: var(--primary-color);
+    color: var(--accent1-color);
+}
+.content_img_contact{
+    text-align: center;
+}
+.contact_img{
+    width: 100%;
+}
+.bottom_submit{
+    margin: 2em 5em;
+    width: 0;
+}
+.button_form{
+    width: auto;
+    padding: 0.7em 4em;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+    cursor: pointer;
+}
+.button_form:hover,
+.button_form:focus{
+    background :var(--accent1-color);
+    color: var(--accent2-color);
 }
